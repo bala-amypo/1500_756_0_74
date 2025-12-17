@@ -15,5 +15,19 @@ public class LocationEntity{
     public Long getId(){
         return id;
     }
-    public void setID()
+    public void setID(Long id){
+        this.id=id;
+    }
+    public String getName(){
+        return name;
+    }
+    public void setName(String name){
+        this.name=name;
+    }
+    public Double getLatitude(){
+        return latitude;
+    }
+    public Double getLongitude(){
+        return longitude;
+    }
 }
